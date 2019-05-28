@@ -25,6 +25,7 @@ sleep(1)
 `sudo ln -s /usr/lib/x86_64-linux-gnu/tk8.5/tkConfig.sh /usr/lib/tkConfig.sh`
 `sudo ln -s /usr/lib/x86_64-linux-gnu/libtcl8.5.so.0 /usr/lib/libtcl8.5.so.0`
 `sudo ln -s /usr/lib/x86_64-linux-gnu/libtk8.5.so.0 /usr/lib/libtk8.5.so.0`
+
   sleep(1)
 puts "Installing TK GEM with TCL8.6-dev"
 sleep(1)

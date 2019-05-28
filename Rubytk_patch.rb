@@ -16,15 +16,19 @@
 
 class TK_Patch
 puts Time.now
+puts "Updating/installing tcl8.6-dev and tk8.6-dev
+`sudo apt-get install tcl8.6-dev`
+`sudo apt-get install tk8.6-dev`
+sleep(1)
 puts "Installing Ruby-All-dev"
 sleep(1)
 `sudo apt-get install ruby-all-dev`.chomp
 sleep(1)
  puts "creating softlinks"
-  `sudo ln -s /usr/lib/x86_64-linux-gnu/tcl8.5/tclConfig.sh /usr/lib/tclConfig.sh`
-`sudo ln -s /usr/lib/x86_64-linux-gnu/tk8.5/tkConfig.sh /usr/lib/tkConfig.sh`
-`sudo ln -s /usr/lib/x86_64-linux-gnu/libtcl8.5.so.0 /usr/lib/libtcl8.5.so.0`
-`sudo ln -s /usr/lib/x86_64-linux-gnu/libtk8.5.so.0 /usr/lib/libtk8.5.so.0`
+  `sudo ln -s /usr/lib/x86_64-linux-gnu/tcl8.6/tclConfig.sh /usr/lib/tclConfig.sh`
+`sudo ln -s /usr/lib/x86_64-linux-gnu/tk8.6/tkConfig.sh /usr/lib/tkConfig.sh`
+`sudo ln -s /usr/lib/x86_64-linux-gnu/libtcl8.6.so.0 /usr/lib/libtcl8.6.so.0`
+`sudo ln -s /usr/lib/x86_64-linux-gnu/libtk8.6.so.0 /usr/lib/libtk8.6.so.0`
 
   sleep(1)
 puts "Installing TK GEM with TCL8.6-dev"

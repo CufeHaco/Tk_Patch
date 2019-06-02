@@ -16,7 +16,7 @@
 
 class TK_Patch
 puts Time.now
-puts "Updating/installing tcl8.6-dev and tk8.6-dev
+puts "Updating/installing tcl8.6-dev and tk8.6-dev"
 `sudo apt-get install tcl8.6-dev`
 `sudo apt-get install tk8.6-dev`
 sleep(1)

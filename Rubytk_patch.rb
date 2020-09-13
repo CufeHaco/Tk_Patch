@@ -59,9 +59,3 @@ end
 
 Tk_Patch.new
 
-sleep(1)
-puts Time.now
-exit(0)
-end
-
-Tk_Patch.new
